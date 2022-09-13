@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>restaurant css</title>
 </head>
-<body bg-ligth>
+<body class="bg-ligth">
     <header>
       <nav class="navbar navbar-expand-md navbar-ligth fixed-top bg-light">
         <div class="container">
@@ -20,15 +20,15 @@
           </button>
           <div class="collapse navbar-collapse" id="mainNav">
             <div class="nav ms-auto text-dark">
-                <a href="#" class="nav-link active">Inicio</a>
-                <a href="#" class="nav-link">Nosotros</a>
-                <a href="#" class="nav-link">Menú</a>
-                <a href="#" class="nav-link init-sesion">Iniciar sesión</a>
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#secService" class="nav-link">Nosotros</a>
+                <a href="menu.html" class="nav-link">Menú</a>
+                <a href="login.html" class="nav-link init-sesion">Iniciar sesión</a>
             </div>
           </div>
         </div>
       </nav>
-      <section class="container">
+      <section class="container" id="inicio">
         <div class="row align-items-center header-main">
           <div class="col-md-7">
             <h2 class="display-2 titulo">Comer...<br><span class="d-block">Saludable y Sabroso.</span></h2>
@@ -56,9 +56,9 @@
       </section>
       
     </header>
-    <hr/>
-    <main class="container">
-      <section class="row justify-content-around text-center" id="secService">
+    <hr id="secService"/>
+    <main class="container" >
+      <section class="row justify-content-around text-center" >
         <h2 class="col-12 display-4 mb-3 titulo">
           ¿Quienes somos?
         </h2>
